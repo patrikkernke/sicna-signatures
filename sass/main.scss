@@ -1,0 +1,54 @@
+$clPaper: rgb(255, 255, 255);
+
+$clPrimary: #e30615;
+$clSecondary: #5f5e5e;
+
+$fontFamily: Arial, sans-serif;
+
+p, table, tr, td {
+	font-family: $fontFamily;
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+a {
+	color: $clSecondary;
+	text-decoration: none;
+	&:hover { color: $clSecondary; }
+}
+
+.greeting {
+	margin-bottom: 5px;
+	a { font-size: 11px; } 
+}
+
+.info {
+	background-color: lighten($clSecondary, 50);
+	padding: 0;
+	border: none;
+
+	.title {
+		padding: 4px 8px;
+
+		color: $clPaper;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 10px;
+		letter-spacing: 1px;
+		background-color: $clSecondary;
+	}
+	
+	.content { 
+		color: $clSecondary; 
+		padding-left: 5px;
+		padding-right: 20px; 
+	}
+}
+
+.logo {
+
+}
+
+.certificates {
+
+}
